@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Poppins:wght@200&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: url(/image/mountains-1112911_640.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 80px;
+  color: white;
+  background-color: black;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.contact {
+  background-color: gray;
+  padding: 5px 15px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.section1 nav {
+  display: flex;
+  gap: 20px;
+  font-size: 1.2rem;
+  color: white;
+}
+.section1 nav li a {
+  color: white;
+  cursor: pointer;
+}
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/image/IMG-20211120-WA0274.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.section2 h1 {
+  font-size: 7rem;
+}
+.section2 p {
+  font-size: 6rem;
+}
+.section3 {
+  text-align: center;
+  background-color: black;
+  padding: 80px 0;
+}
+.section3 h1 {
+  font-size: 4rem;
+  color: white;
+}
+.section4 {
+  display: flex;
+  gap: 50px;
+  padding: 50px;
+}
+.section4 .flex {
+  display: flex;
+  gap: 100px;
+  line-height: 1.8;
+}
+.section4 .flex p {
+  font-size: 1.5rem;
+}
+.section4b {
+  color: white;
+  width: 50%;
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.section5 img {
+  width: 500px;
+  height: 100%;
+}
+p.undertaker {
+  font-size: 1.6rem;
+  margin: 40px 0;
+}
+p.commercial {
+  font-size: 1.6rem;
+  margin: 40px 0;
+}
+p.history {
+  font-size: 1.7rem;
+  margin: 40px 0;
+}
+p.history2 {
+  font-size: 1.7rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  opacity: 0.5;
+  line-height: 1.3;
+}
+p.history3 {
+  font-size: 1.7rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  opacity: 0.5;
+  line-height: 1.3;
+}
+p.history4 {
+  font-size: 1.7rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  opacity: 0.5;
+  line-height: 1.3;
+}
+p.References {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+h2.myname {
+  font-size: 2rem;
+  margin-top: 40px;
+}
+h2.Portfolio {
+  text-align: center;
+  background-color: black;
+  padding: 20px 0;
+  color: white;
+  font-size: 4rem;
+}
+.section5 .grid {
+  background-color: green;
+  grid-template-columns: repeat(4, 1fr);
+}
+.section6 {
+  text-align: center;
+  background-color: black;
+  padding: 20px 0;
+  color: white;
+  font-size: 1.8rem;
+}
+.section6 p {
+  font-size: 1.4rem;
+  margin: 20px 0;
+}
+.section7 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: white;
+  padding: 50px;
+}
+.section7 h2 {
+  font-size: 3rem;
+}
+
+.section7 .blue {
+  color: white;
+  background-color: blue;
+  border: none;
+  padding: 12px 70px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 8px;
+  outline: none;
+}
+.section7 .yellow {
+  color: white;
+  background-color: purple;
+  border: none;
+  padding: 12px 70px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 8px;
+  outline: none;
+}
+.section7 .red {
+  color: white;
+  background-color: yellow;
+  border: none;
+  padding: 12px 80px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 8px;
+  outline: none;
+}
+.section7 .green {
+  color: white;
+  background-color: green;
+  border: none;
+  padding: 12px 70px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 8px;
+  outline: none;
+}
+
+.form1 {
+  display: flex;
+  gap: 25px;
+  margin: 40px 0;
+}
+p.formtext {
+  font-size: 1.3rem;
+  line-height: 1.3;
+}
+p.formtext a {
+  color: red;
+}
+input {
+  width: 80%;
+  height: 70px;
+}
+.space {
+  margin: 20px;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+}
+.message {
+  height: 210px;
+}
+.code {
+  width: 50%;
+}
+.sendmessage {
+  padding: 15px 20px;
+  background-color: gray;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+hr {
+  margin: 30px 0;
+}
